@@ -1,0 +1,180 @@
+{
+    "type": "FeatureCollection",
+    "totalFeatures": 8,
+    "features": [
+        {
+            "type": "Feature",
+            "id": "bma_hos.1",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.85679615,
+                    100.85905899
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลเวชการุณรัศมิ์",
+                "address": "48 ม.2 ถ.เลียบวารี แขวงกระทุ่มราย เขตหนองจอก กทม.10530",
+                "dcode": "1003",
+                "tel": "0 2548 1555",
+                "num_bed": 76,
+                "out_pat": 190213,
+                "in_pat": 4546
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.2",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.74694658,
+                    1100.50903117
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลกลาง",
+                "address": "514 ถ.หลวง เขตป้อมปราบศัตรูพ่าย กทม.10100",
+                "dcode": "1008",
+                "tel": "0 2220 8000",
+                "num_bed": 412,
+                "out_pat": 594398,
+                "in_pat": 18231
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.3",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73080195,
+                    100.50781999
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลตากสิน",
+                "address": "543 ถ.สมเด็จเจ้าพระยา เขตคลองสาน กทม.10600",
+                "dcode": "1018",
+                "tel": "0 2437 0123",
+                "num_bed": 427,
+                "out_pat": 558094,
+                "in_pat": 18762
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.4",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.72251561,
+                    100.78408826
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลลาดกระบัง กรุงเทพมหานคร",
+                "address": "2 ซ.ลาดกระบัง 15 ถ.อ่อนนุช-ลาดกระบัง เขตลาดกระบัง กทม.10520",
+                "dcode": "1011",
+                "tel": "0 2326 9995",
+                "num_bed": 60,
+                "out_pat": 142619,
+                "in_pat": 3426
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.5",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.69452397,
+                    100.49468444
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลเจริญกรุงประชารักษ์",
+                "address": "8 ถ.เจริญกรุง เขตบางคอแหลม กทม.10120",
+                "dcode": "1031",
+                "tel": "0 2289 7000-3",
+                "num_bed": 402,
+                "out_pat": 715289,
+                "in_pat": 21386
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.6",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.65570304,
+                    100.34525189
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลหลวงพ่อทวีศักด์ ชุตินธโร อุทิศ",
+                "address": "6 ซ.หนองแขม-วัดนวลศรี 1 เขตหนองแขม กทม.10160",
+                "dcode": "1023",
+                "tel": "0 2429 3575-81",
+                "num_bed": 100,
+                "out_pat": 236434,
+                "in_pat": 5160
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.7",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.65570304,
+                    100.34525189
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลราชพิพัฒน์",
+                "address": "18 ถ.พุทธมณฑลสาย 3 ซ.10 แขวงบางไผ่ เขตบางแค กทม.10160",
+                "dcode": "1040",
+                "tel": "0 2421 2220",
+                "num_bed": 132,
+                "out_pat": 244510,
+                "in_pat": 9895
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "bma_hos.8",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.73051961,
+                    100.36696244
+                ]
+            },
+            "geometry_name": "the_geom",
+            "properties": {
+                "name": "โรงพยาบาลสิรินธร",
+                "address": "20 ซ.อ่อนนุช 90 เขตประเวศ กทม.10250",
+                "dcode": "1032",
+                "tel": "0 2328 6900",
+                "num_bed": 243,
+                "out_pat": 349718,
+                "in_pat": 17215
+            }
+        }
+    ],
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:EPSG::32647"
+        }
+    }
+}
