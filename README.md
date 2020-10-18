@@ -1,9 +1,8 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="./src/images/logo-icon.png" alt="HTBF logo"></a>
 </p>
 
-<h3 align="center">Hacktoberfest Bangkok 2020</h3>
+<h3 align="center">Thailand mob support system</h3>
 
 <div align="center">
 
