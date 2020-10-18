@@ -7,7 +7,7 @@ import {
   InfoWindow
 } from "react-google-maps";
 import * as parkData from "../data/hospital.json";
-// import mapStyles from "./mapStyles";
+import PinMarker from '../images/pin.svg';
 
 function Map() {
   const [selectedHospital, setSelectedHospital] = useState(null);
@@ -30,7 +30,7 @@ function Map() {
             setSelectedHospital(park);
           }}
           icon={{
-            url: `/pin.svg`,
+            url: PinMarker,
             scaledSize: new window.google.maps.Size(25, 25)
           }}
         />
