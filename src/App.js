@@ -2,23 +2,21 @@ import React, { Component } from "react";
 import "antd/dist/antd.css";
 import { Layout, Menu } from "antd";
 import {
+  HeartFilled,
   HomeFilled,
   InfoCircleFilled,
   PlusSquareFilled,
 } from "@ant-design/icons";
+
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Support from "./components/Support";
 import Location from "./components/Location";
 import Home from "./components/Home";
+import Cheerup from "./components/Cheerup";
 
 const { Header, Content, Footer, Sider } = Layout;
 
 export default class App extends Component {
-  componentDidMount() {
-    navigator.geolocation.getCurrentPosition(function (position) {
-      console.log(position.coords.latitude);
-    });
-  }
 
   render() {
     return (
@@ -27,27 +25,44 @@ export default class App extends Component {
           <Sider
             breakpoint="lg"
             collapsedWidth="0"
-            onBreakpoint={(broken) => {
-              console.log(broken);
-            }}
-            onCollapse={(collapsed, type) => {
-              console.log(collapsed, type);
-            }}
+          
           >
             <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
               <Menu.Item key="1" icon={<HomeFilled />}>
-                <Link to="/" style={{ textDecoration: "none" }}>
+                <Link
+                  to="/thailand-mob-support-system/"
+                  style={{ textDecoration: "none" }}
+                >
                   หน้าหลัก
                 </Link>
               </Menu.Item>
               <Menu.Item key="2" icon={<PlusSquareFilled />}>
-                <Link to="/support" style={{ textDecoration: "none" }}>
+                <Link
+                  to="/thailand-mob-support-system/support"
+                  style={{ textDecoration: "none" }}
+                >
                   ขอความช่วยเหลือ
                 </Link>
               </Menu.Item>
               <Menu.Item key="3" icon={<InfoCircleFilled />}>
-                <Link to="/searchLocation" style={{ textDecoration: "none" }}>
+                <Link
+                  to="/thailand-mob-support-system/searchLocation"
+                  style={{ textDecoration: "none" }}
+                >
                   ค้นหาพิกัด
+                </Link>
+              </Menu.Item>
+              <Menu.Item
+                key="4"
+                icon={
+                  <HeartFilled style={{ color: "red", fontSize: "1.5em" }} />
+                }
+              >
+                <Link
+                  to="/thailand-mob-support-system/cheerup"
+                  style={{ textDecoration: "none" }}
+                >
+                  Cheer up !
                 </Link>
               </Menu.Item>
             </Menu>
@@ -57,21 +72,29 @@ export default class App extends Component {
               className="site-layout-sub-header-background"
               style={{ padding: 0, color: "white", fontSize: 18 }}
             >
-              📌 ระบบสอบถามข้อมูลแก่ผู้ชุมนุมประชาธิปไตย
+              <span role="img" >📌 ระบบสอบถามข้อมูลแก่ผู้ชุมนุม</span>
             </Header>
             <Content style={{ margin: "24px 16px 0" }}>
               <div
                 className="site-layout-background"
-                style={{ padding: 24, minHeight: 600 }}
+                style={{ padding: 24, height:"100vh" }}
               >
-                <Route exact path="/" component={Home} />
-                <Route path="/support" component={Support} />
-                <Route path="/searchLocation" component={Location} />
+                <Route path="/thailand-mob-support-system/" component={Home} />
+                <Route
+                  path="/thailand-mob-support-system/support"
+                  component={Support}
+                />
+                <Route
+                  path="/thailand-mob-support-system/searchLocation"
+                  component={Location}
+                />
+                <Route
+                  path="/thailand-mob-support-system/cheerup"
+                  component={Cheerup}
+                />
               </div>
             </Content>
             <Footer style={{ textAlign: "center", backgroundColor: "white" }}>
-              ©{new Date().getFullYear()} Created by Ronnakorn Hompoa
-              <br />
               Icons made by{" "}
               <a
                 href="https://www.flaticon.com/authors/freepik"
