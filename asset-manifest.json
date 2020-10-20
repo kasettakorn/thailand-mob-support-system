@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/thailand-mob-support-system/static/css/main.e2818288.chunk.css",
+    "main.js": "/thailand-mob-support-system/static/js/main.e9c0eef8.chunk.js",
+    "main.js.map": "/thailand-mob-support-system/static/js/main.e9c0eef8.chunk.js.map",
+    "runtime-main.js": "/thailand-mob-support-system/static/js/runtime-main.0b7221c6.js",
+    "runtime-main.js.map": "/thailand-mob-support-system/static/js/runtime-main.0b7221c6.js.map",
+    "static/css/2.18a54708.chunk.css": "/thailand-mob-support-system/static/css/2.18a54708.chunk.css",
+    "static/js/2.55c15a71.chunk.js": "/thailand-mob-support-system/static/js/2.55c15a71.chunk.js",
+    "static/js/2.55c15a71.chunk.js.map": "/thailand-mob-support-system/static/js/2.55c15a71.chunk.js.map",
+    "index.html": "/thailand-mob-support-system/index.html",
+    "precache-manifest.69f2ac11bb6f384b8f8d1af79a09b7b4.js": "/thailand-mob-support-system/precache-manifest.69f2ac11bb6f384b8f8d1af79a09b7b4.js",
+    "service-worker.js": "/thailand-mob-support-system/service-worker.js",
+    "static/css/2.18a54708.chunk.css.map": "/thailand-mob-support-system/static/css/2.18a54708.chunk.css.map",
+    "static/css/main.e2818288.chunk.css.map": "/thailand-mob-support-system/static/css/main.e2818288.chunk.css.map",
+    "static/js/2.55c15a71.chunk.js.LICENSE.txt": "/thailand-mob-support-system/static/js/2.55c15a71.chunk.js.LICENSE.txt",
+    "static/media/pin.svg": "/thailand-mob-support-system/static/media/pin.7c9810df.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0b7221c6.js",
+    "static/css/2.18a54708.chunk.css",
+    "static/js/2.55c15a71.chunk.js",
+    "static/css/main.e2818288.chunk.css",
+    "static/js/main.e9c0eef8.chunk.js"
+  ]
+}
