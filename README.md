@@ -46,6 +46,7 @@ npm run deploy
 
 - [ReactJS](https://reactjs.org/) - Web framework
 - [Google Map Platform](https://developers.google.com/maps/documentation) - Map API
+- [Google Firebase](http://firebase.google.com) - Realtime databases and storage
 ## ✍️ Authors <a name = "authors"></a>
 
 - [Ronnakorn Hompoa](https://github.com/kasettakorn) - Idea & Initial work
